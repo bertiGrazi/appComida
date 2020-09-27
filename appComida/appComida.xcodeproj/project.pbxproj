@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F21F84372520F6730033D4D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F84362520F6730033D4D9 /* AppDelegate.swift */; };
+		F21F84392520F6730033D4D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F84382520F6730033D4D9 /* SceneDelegate.swift */; };
+		F21F843B2520F6730033D4D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F843A2520F6730033D4D9 /* ViewController.swift */; };
+		F21F843E2520F6730033D4D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21F843C2520F6730033D4D9 /* Main.storyboard */; };
+		F21F84402520F6750033D4D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21F843F2520F6750033D4D9 /* Assets.xcassets */; };
+		F21F84432520F6750033D4D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21F84412520F6750033D4D9 /* LaunchScreen.storyboard */; };
+		F21F844E2520F6750033D4D9 /* appComidaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F844D2520F6750033D4D9 /* appComidaTests.swift */; };
+		F21F84592520F6750033D4D9 /* appComidaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F84582520F6750033D4D9 /* appComidaUITests.swift */; };
+		F21F84772520F7390033D4D9 /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F84762520F7390033D4D9 /* Refeicao.swift */; };
+		F21F847C2520F8400033D4D9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F847B2520F8400033D4D9 /* Item.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F21F844A2520F6750033D4D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F21F842B2520F6730033D4D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F21F84322520F6730033D4D9;
+			remoteInfo = appComida;
+		};
+		F21F84552520F6750033D4D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F21F842B2520F6730033D4D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F21F84322520F6730033D4D9;
+			remoteInfo = appComida;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F21F84332520F6730033D4D9 /* appComida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appComida.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21F84362520F6730033D4D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F21F84382520F6730033D4D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F21F843A2520F6730033D4D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F21F843D2520F6730033D4D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F21F843F2520F6750033D4D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F21F84422520F6750033D4D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F21F84442520F6750033D4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21F84492520F6750033D4D9 /* appComidaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appComidaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21F844D2520F6750033D4D9 /* appComidaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appComidaTests.swift; sourceTree = "<group>"; };
+		F21F844F2520F6750033D4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21F84542520F6750033D4D9 /* appComidaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appComidaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21F84582520F6750033D4D9 /* appComidaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appComidaUITests.swift; sourceTree = "<group>"; };
+		F21F845A2520F6750033D4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21F84762520F7390033D4D9 /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
+		F21F847B2520F8400033D4D9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F21F84302520F6730033D4D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21F84462520F6750033D4D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21F84512520F6750033D4D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F21F842A2520F6730033D4D9 = {
+			isa = PBXGroup;
+			children = (
+				F21F84352520F6730033D4D9 /* appComida */,
+				F21F844C2520F6750033D4D9 /* appComidaTests */,
+				F21F84572520F6750033D4D9 /* appComidaUITests */,
+				F21F84342520F6730033D4D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F21F84342520F6730033D4D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F21F84332520F6730033D4D9 /* appComida.app */,
+				F21F84492520F6750033D4D9 /* appComidaTests.xctest */,
+				F21F84542520F6750033D4D9 /* appComidaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F21F84352520F6730033D4D9 /* appComida */ = {
+			isa = PBXGroup;
+			children = (
+				F21F84692520F6AB0033D4D9 /* Class */,
+				F21F84362520F6730033D4D9 /* AppDelegate.swift */,
+				F21F84382520F6730033D4D9 /* SceneDelegate.swift */,
+				F21F843A2520F6730033D4D9 /* ViewController.swift */,
+				F21F843C2520F6730033D4D9 /* Main.storyboard */,
+				F21F843F2520F6750033D4D9 /* Assets.xcassets */,
+				F21F84412520F6750033D4D9 /* LaunchScreen.storyboard */,
+				F21F84442520F6750033D4D9 /* Info.plist */,
+			);
+			path = appComida;
+			sourceTree = "<group>";
+		};
+		F21F844C2520F6750033D4D9 /* appComidaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F21F844D2520F6750033D4D9 /* appComidaTests.swift */,
+				F21F844F2520F6750033D4D9 /* Info.plist */,
+			);
+			path = appComidaTests;
+			sourceTree = "<group>";
+		};
+		F21F84572520F6750033D4D9 /* appComidaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F21F84582520F6750033D4D9 /* appComidaUITests.swift */,
+				F21F845A2520F6750033D4D9 /* Info.plist */,
+			);
+			path = appComidaUITests;
+			sourceTree = "<group>";
+		};
+		F21F84692520F6AB0033D4D9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F21F84762520F7390033D4D9 /* Refeicao.swift */,
+				F21F847B2520F8400033D4D9 /* Item.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F21F84322520F6730033D4D9 /* appComida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21F845D2520F6750033D4D9 /* Build configuration list for PBXNativeTarget "appComida" */;
+			buildPhases = (
+				F21F842F2520F6730033D4D9 /* Sources */,
+				F21F84302520F6730033D4D9 /* Frameworks */,
+				F21F84312520F6730033D4D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appComida;
+			productName = appComida;
+			productReference = F21F84332520F6730033D4D9 /* appComida.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F21F84482520F6750033D4D9 /* appComidaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21F84602520F6750033D4D9 /* Build configuration list for PBXNativeTarget "appComidaTests" */;
+			buildPhases = (
+				F21F84452520F6750033D4D9 /* Sources */,
+				F21F84462520F6750033D4D9 /* Frameworks */,
+				F21F84472520F6750033D4D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F21F844B2520F6750033D4D9 /* PBXTargetDependency */,
+			);
+			name = appComidaTests;
+			productName = appComidaTests;
+			productReference = F21F84492520F6750033D4D9 /* appComidaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F21F84532520F6750033D4D9 /* appComidaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21F84632520F6750033D4D9 /* Build configuration list for PBXNativeTarget "appComidaUITests" */;
+			buildPhases = (
+				F21F84502520F6750033D4D9 /* Sources */,
+				F21F84512520F6750033D4D9 /* Frameworks */,
+				F21F84522520F6750033D4D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F21F84562520F6750033D4D9 /* PBXTargetDependency */,
+			);
+			name = appComidaUITests;
+			productName = appComidaUITests;
+			productReference = F21F84542520F6750033D4D9 /* appComidaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F21F842B2520F6730033D4D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F21F84322520F6730033D4D9 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F21F84482520F6750033D4D9 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F21F84322520F6730033D4D9;
+					};
+					F21F84532520F6750033D4D9 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F21F84322520F6730033D4D9;
+					};
+				};
+			};
+			buildConfigurationList = F21F842E2520F6730033D4D9 /* Build configuration list for PBXProject "appComida" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F21F842A2520F6730033D4D9;
+			productRefGroup = F21F84342520F6730033D4D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F21F84322520F6730033D4D9 /* appComida */,
+				F21F84482520F6750033D4D9 /* appComidaTests */,
+				F21F84532520F6750033D4D9 /* appComidaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F21F84312520F6730033D4D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21F84432520F6750033D4D9 /* LaunchScreen.storyboard in Resources */,
+				F21F84402520F6750033D4D9 /* Assets.xcassets in Resources */,
+				F21F843E2520F6730033D4D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21F84472520F6750033D4D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21F84522520F6750033D4D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F21F842F2520F6730033D4D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21F847C2520F8400033D4D9 /* Item.swift in Sources */,
+				F21F843B2520F6730033D4D9 /* ViewController.swift in Sources */,
+				F21F84372520F6730033D4D9 /* AppDelegate.swift in Sources */,
+				F21F84392520F6730033D4D9 /* SceneDelegate.swift in Sources */,
+				F21F84772520F7390033D4D9 /* Refeicao.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21F84452520F6750033D4D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21F844E2520F6750033D4D9 /* appComidaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21F84502520F6750033D4D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21F84592520F6750033D4D9 /* appComidaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F21F844B2520F6750033D4D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F21F84322520F6730033D4D9 /* appComida */;
+			targetProxy = F21F844A2520F6750033D4D9 /* PBXContainerItemProxy */;
+		};
+		F21F84562520F6750033D4D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F21F84322520F6730033D4D9 /* appComida */;
+			targetProxy = F21F84552520F6750033D4D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F21F843C2520F6730033D4D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21F843D2520F6730033D4D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F21F84412520F6750033D4D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21F84422520F6750033D4D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F21F845B2520F6750033D4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F21F845C2520F6750033D4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F21F845E2520F6750033D4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = appComida/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.appComida";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F21F845F2520F6750033D4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = appComida/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.appComida";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F21F84612520F6750033D4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = appComidaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.appComidaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appComida.app/appComida";
+			};
+			name = Debug;
+		};
+		F21F84622520F6750033D4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = appComidaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.appComidaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appComida.app/appComida";
+			};
+			name = Release;
+		};
+		F21F84642520F6750033D4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = appComidaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.appComidaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appComida;
+			};
+			name = Debug;
+		};
+		F21F84652520F6750033D4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = appComidaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.appComidaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appComida;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F21F842E2520F6730033D4D9 /* Build configuration list for PBXProject "appComida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21F845B2520F6750033D4D9 /* Debug */,
+				F21F845C2520F6750033D4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21F845D2520F6750033D4D9 /* Build configuration list for PBXNativeTarget "appComida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21F845E2520F6750033D4D9 /* Debug */,
+				F21F845F2520F6750033D4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21F84602520F6750033D4D9 /* Build configuration list for PBXNativeTarget "appComidaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21F84612520F6750033D4D9 /* Debug */,
+				F21F84622520F6750033D4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21F84632520F6750033D4D9 /* Build configuration list for PBXNativeTarget "appComidaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21F84642520F6750033D4D9 /* Debug */,
+				F21F84652520F6750033D4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F21F842B2520F6730033D4D9 /* Project object */;
+}
